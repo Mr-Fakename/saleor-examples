@@ -1,6 +1,0 @@
-{
-  "startCommand": "pnpm generate && pnpm dev",
-  "env": {
-    "SALEOR_API_URL": "https://zaiste.saleor.cloud/graphql/"
-  }
-}

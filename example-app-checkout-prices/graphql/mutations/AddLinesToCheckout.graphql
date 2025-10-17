@@ -1,7 +1,0 @@
-mutation AddLinesToCheckout($id: ID!, $lines: [CheckoutLineInput!]!){
-  checkoutLinesAdd(id: $id, lines: $lines){
-    checkout{
-      ...CheckoutDetails
-    }
-  }
-}

@@ -1,5 +1,0 @@
-subscription OrderFulfilled {
-  event {
-    ...OrderFulfilledEvent
-  }
-}
